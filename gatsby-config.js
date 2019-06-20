@@ -18,15 +18,15 @@ module.exports = {
           AWS.config.update({
             region: 'us-east-1',
             credentials: new AWS.Credentials({
-              accessKeyId: process.env.S3_KEY_ID,
-              secretAccessKey: process.env.S3_ACCESS_KEY
+              accessKeyId: process.env.AMZN_KEY_ID, // <--- Don't forget ENV Var
+              secretAccessKey: process.env.AMZN_ACCESS_KEY // <--- Don't forget ENV Var
             })
           });
   
           const credentials = AWS.config.credentials;
   
           return createAppSyncLink({
-            url: process.env.GRAPHQL_URI,
+            url: process.env.GRAPHQL_URI, // <--- Don't forget ENV Var
             region: 'us-east-1',
             auth: {
               type: AUTH_TYPE.AWS_IAM,
