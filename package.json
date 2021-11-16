@@ -15,7 +15,7 @@
   "dependencies": {
     "apollo-link-http": "^1.5.15",
     "aws-appsync": "^1.8.1",
-    "aws-sdk": "^2.479.0",
+    "aws-sdk": "^2.814.0",
     "gatsby": "^2.10.0",
     "gatsby-source-graphql": "^2.1.0",
     "node-fetch": "^2.6.0",
