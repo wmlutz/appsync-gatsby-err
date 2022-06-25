@@ -18,7 +18,7 @@
     "aws-sdk": "^2.479.0",
     "gatsby": "^2.10.0",
     "gatsby-source-graphql": "^2.1.0",
-    "node-fetch": "^2.6.0",
+    "node-fetch": "^2.6.7",
     "react": "^16.8.6",
     "react-dom": "^16.8.6"
   },
